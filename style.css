@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #1a1a2e;
 }
 html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: #f2f2f2;
-    color: #333333;
+    background-color: #1a1a2e;
+    color: white;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
@@ -71,7 +72,8 @@ main hr {
 
 .leftsection {
     font-size: 3rem;
-    color: #333333;
+    /* color: #333333; */
+    color: white;
 }
 
 .leftsection .buttons {
@@ -305,7 +307,7 @@ footer {
 }
 
 #about {
-    color: #1a1a2e;
+    color: white;
     padding: 70px;
 }
 
@@ -352,7 +354,7 @@ footer {
 }
 
 .tab-links:hover {
-    color: #1a1a2e;
+    color: #ffd700;
 }
 
 .tab-links::after {
@@ -391,6 +393,7 @@ footer {
 /* Portfolio */
 #portfolio {
     padding: 50px 0;
+    color: white;
 }
 
 .work-list {
@@ -434,7 +437,7 @@ footer {
     padding: 0 40px;
     text-align: center;
     font-size: 14px;
-    color: white; /* Ensure text is visible on dark background */
+    color: black; /* Ensure text is visible on dark background */
     overflow: hidden; /* Hide overflow content in .layer */
     transition: height 0.5s;
 }
@@ -443,10 +446,12 @@ footer {
     font-weight: 500;
     margin-bottom: 20px;
     margin-right: 5vw;;
+    background-color: transparent;
 }
 .layer p{
     margin-right: 5vw;
     justify-content: center;
+    background-color: transparent;
 }
 
 .layer a {
@@ -573,7 +578,7 @@ form .btn2 {
     padding: 25px 0;
     background: #ffd700;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 /* CSS Animations */
